@@ -16,7 +16,7 @@ function CakeContainer(props) {
 
 const mapStateToProps = (state) => {
     return {
-        numberOfCakes: state.numberOfCakes,
+        numberOfCakes: state.cake.numberOfCakes,
     }
 }
 // yo state redux store bata hamle pako because of Provider in app.js

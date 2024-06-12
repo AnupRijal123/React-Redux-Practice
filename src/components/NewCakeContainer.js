@@ -33,7 +33,7 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        buycake: (number) => dispatch(buyCake(number)),
+        buycake: (number) => dispatch(buyCake(number)), //this number will be sent to cakeAction.js buyAction()
     }
 }
 

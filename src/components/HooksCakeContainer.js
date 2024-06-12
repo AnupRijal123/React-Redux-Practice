@@ -7,6 +7,7 @@ function HooksCakeConatainer() {
     console.log(value);
 
     const makeDispatch = useDispatch();
+    //useDispatch() returns dispatch from redux store
 
     return (
         <div>
